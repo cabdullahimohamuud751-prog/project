@@ -1,0 +1,31 @@
+body{ 
+  display:flex;
+  justify-content:center;
+   font-family:Arial;
+  align-items: center;
+  margin-top:50px;
+  background-color: blueviolet;
+}
+#Calendar{
+  display:flex;
+  width:260px;
+  border-radius:10px;
+  overflow:hidden;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#left{
+  width: 100px;
+  padding:20px;
+  text-align:center;
+  align-items: center;
+  background-color: white;
+}
+
+#right{
+  background:orangered;
+  color:white;
+  padding:20px;
+  height: 115px;
+}
